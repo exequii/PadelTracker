@@ -1,0 +1,671 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E87320952F2E52E300444902 /* PadelTracker Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = E87320942F2E52E300444902 /* PadelTracker Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E87320962F2E52E300444902 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E87320882F2E52E200444902 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E87320932F2E52E300444902;
+			remoteInfo = "PadelTracker Watch App";
+		};
+		E87320A42F2E52E400444902 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E87320882F2E52E200444902 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E87320932F2E52E300444902;
+			remoteInfo = "PadelTracker Watch App";
+		};
+		E87320AE2F2E52E400444902 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E87320882F2E52E200444902 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E87320932F2E52E300444902;
+			remoteInfo = "PadelTracker Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E87320BA2F2E52E400444902 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				E87320952F2E52E300444902 /* PadelTracker Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		E873208E2F2E52E300444902 /* PadelTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PadelTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E87320942F2E52E300444902 /* PadelTracker Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PadelTracker Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E87320A32F2E52E400444902 /* PadelTracker Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PadelTracker Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E87320AD2F2E52E400444902 /* PadelTracker Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PadelTracker Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		E87320982F2E52E300444902 /* PadelTracker Watch App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "PadelTracker Watch App";
+			sourceTree = "<group>";
+		};
+		E87320A62F2E52E400444902 /* PadelTracker Watch AppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "PadelTracker Watch AppTests";
+			sourceTree = "<group>";
+		};
+		E87320B02F2E52E400444902 /* PadelTracker Watch AppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "PadelTracker Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E87320912F2E52E300444902 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E87320A02F2E52E400444902 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E87320AA2F2E52E400444902 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E87320872F2E52E200444902 = {
+			isa = PBXGroup;
+			children = (
+				E87320982F2E52E300444902 /* PadelTracker Watch App */,
+				E87320A62F2E52E400444902 /* PadelTracker Watch AppTests */,
+				E87320B02F2E52E400444902 /* PadelTracker Watch AppUITests */,
+				E873208F2F2E52E300444902 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E873208F2F2E52E300444902 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E873208E2F2E52E300444902 /* PadelTracker.app */,
+				E87320942F2E52E300444902 /* PadelTracker Watch App.app */,
+				E87320A32F2E52E400444902 /* PadelTracker Watch AppTests.xctest */,
+				E87320AD2F2E52E400444902 /* PadelTracker Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E873208D2F2E52E200444902 /* PadelTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E87320BB2F2E52E400444902 /* Build configuration list for PBXNativeTarget "PadelTracker" */;
+			buildPhases = (
+				E873208C2F2E52E200444902 /* Resources */,
+				E87320BA2F2E52E400444902 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E87320972F2E52E300444902 /* PBXTargetDependency */,
+			);
+			name = PadelTracker;
+			packageProductDependencies = (
+			);
+			productName = PadelTracker;
+			productReference = E873208E2F2E52E300444902 /* PadelTracker.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		E87320932F2E52E300444902 /* PadelTracker Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E87320B72F2E52E400444902 /* Build configuration list for PBXNativeTarget "PadelTracker Watch App" */;
+			buildPhases = (
+				E87320902F2E52E300444902 /* Sources */,
+				E87320912F2E52E300444902 /* Frameworks */,
+				E87320922F2E52E300444902 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				E87320982F2E52E300444902 /* PadelTracker Watch App */,
+			);
+			name = "PadelTracker Watch App";
+			packageProductDependencies = (
+			);
+			productName = "PadelTracker Watch App";
+			productReference = E87320942F2E52E300444902 /* PadelTracker Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E87320A22F2E52E400444902 /* PadelTracker Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E87320BE2F2E52E400444902 /* Build configuration list for PBXNativeTarget "PadelTracker Watch AppTests" */;
+			buildPhases = (
+				E873209F2F2E52E400444902 /* Sources */,
+				E87320A02F2E52E400444902 /* Frameworks */,
+				E87320A12F2E52E400444902 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E87320A52F2E52E400444902 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				E87320A62F2E52E400444902 /* PadelTracker Watch AppTests */,
+			);
+			name = "PadelTracker Watch AppTests";
+			packageProductDependencies = (
+			);
+			productName = "PadelTracker Watch AppTests";
+			productReference = E87320A32F2E52E400444902 /* PadelTracker Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E87320AC2F2E52E400444902 /* PadelTracker Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E87320C12F2E52E400444902 /* Build configuration list for PBXNativeTarget "PadelTracker Watch AppUITests" */;
+			buildPhases = (
+				E87320A92F2E52E400444902 /* Sources */,
+				E87320AA2F2E52E400444902 /* Frameworks */,
+				E87320AB2F2E52E400444902 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E87320AF2F2E52E400444902 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				E87320B02F2E52E400444902 /* PadelTracker Watch AppUITests */,
+			);
+			name = "PadelTracker Watch AppUITests";
+			packageProductDependencies = (
+			);
+			productName = "PadelTracker Watch AppUITests";
+			productReference = E87320AD2F2E52E400444902 /* PadelTracker Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E87320882F2E52E200444902 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					E873208D2F2E52E200444902 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					E87320932F2E52E300444902 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					E87320A22F2E52E400444902 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = E87320932F2E52E300444902;
+					};
+					E87320AC2F2E52E400444902 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = E87320932F2E52E300444902;
+					};
+				};
+			};
+			buildConfigurationList = E873208B2F2E52E200444902 /* Build configuration list for PBXProject "PadelTracker" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E87320872F2E52E200444902;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = E873208F2F2E52E300444902 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E873208D2F2E52E200444902 /* PadelTracker */,
+				E87320932F2E52E300444902 /* PadelTracker Watch App */,
+				E87320A22F2E52E400444902 /* PadelTracker Watch AppTests */,
+				E87320AC2F2E52E400444902 /* PadelTracker Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E873208C2F2E52E200444902 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E87320922F2E52E300444902 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E87320A12F2E52E400444902 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E87320AB2F2E52E400444902 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E87320902F2E52E300444902 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E873209F2F2E52E400444902 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E87320A92F2E52E400444902 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E87320972F2E52E300444902 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E87320932F2E52E300444902 /* PadelTracker Watch App */;
+			targetProxy = E87320962F2E52E300444902 /* PBXContainerItemProxy */;
+		};
+		E87320A52F2E52E400444902 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E87320932F2E52E300444902 /* PadelTracker Watch App */;
+			targetProxy = E87320A42F2E52E400444902 /* PBXContainerItemProxy */;
+		};
+		E87320AF2F2E52E400444902 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E87320932F2E52E300444902 /* PadelTracker Watch App */;
+			targetProxy = E87320AE2F2E52E400444902 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E87320B52F2E52E400444902 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = FY69YDSV2N;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E87320B62F2E52E400444902 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = FY69YDSV2N;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		E87320B82F2E52E400444902 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FY69YDSV2N;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = PadelTracker;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Suriscode.PadelTracker.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.4;
+			};
+			name = Debug;
+		};
+		E87320B92F2E52E400444902 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FY69YDSV2N;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = PadelTracker;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Suriscode.PadelTracker.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.4;
+			};
+			name = Release;
+		};
+		E87320BC2F2E52E400444902 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FY69YDSV2N;
+				INFOPLIST_KEY_CFBundleDisplayName = PadelTracker;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Suriscode.PadelTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E87320BD2F2E52E400444902 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FY69YDSV2N;
+				INFOPLIST_KEY_CFBundleDisplayName = PadelTracker;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Suriscode.PadelTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E87320BF2F2E52E400444902 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FY69YDSV2N;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Suriscode.PadelTracker-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PadelTracker Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PadelTracker Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.4;
+			};
+			name = Debug;
+		};
+		E87320C02F2E52E400444902 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FY69YDSV2N;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Suriscode.PadelTracker-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PadelTracker Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PadelTracker Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.4;
+			};
+			name = Release;
+		};
+		E87320C22F2E52E400444902 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FY69YDSV2N;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Suriscode.PadelTracker-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "PadelTracker Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.4;
+			};
+			name = Debug;
+		};
+		E87320C32F2E52E400444902 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FY69YDSV2N;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Suriscode.PadelTracker-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "PadelTracker Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.4;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E873208B2F2E52E200444902 /* Build configuration list for PBXProject "PadelTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E87320B52F2E52E400444902 /* Debug */,
+				E87320B62F2E52E400444902 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E87320B72F2E52E400444902 /* Build configuration list for PBXNativeTarget "PadelTracker Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E87320B82F2E52E400444902 /* Debug */,
+				E87320B92F2E52E400444902 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E87320BB2F2E52E400444902 /* Build configuration list for PBXNativeTarget "PadelTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E87320BC2F2E52E400444902 /* Debug */,
+				E87320BD2F2E52E400444902 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E87320BE2F2E52E400444902 /* Build configuration list for PBXNativeTarget "PadelTracker Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E87320BF2F2E52E400444902 /* Debug */,
+				E87320C02F2E52E400444902 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E87320C12F2E52E400444902 /* Build configuration list for PBXNativeTarget "PadelTracker Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E87320C22F2E52E400444902 /* Debug */,
+				E87320C32F2E52E400444902 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E87320882F2E52E200444902 /* Project object */;
+}
