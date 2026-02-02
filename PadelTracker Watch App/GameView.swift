@@ -5,10 +5,12 @@ struct GameView: View {
     let onGameEnded: () -> Void
     let onSetEnded: () -> Void
     let onMatchEnded: () -> Void
+    let onExitToHistory: () -> Void
     @State private var isMinusMode = false
     @State private var showGameEndConfirm = false
     @State private var pendingProgress: MatchProgress?
     @State private var pendingWinner: Int?
+    @State private var showExitConfirm = false
 
     var body: some View {
         VStack(spacing: 6) {
@@ -24,6 +26,16 @@ struct GameView: View {
         }
         .padding(6)
         .navigationTitle("Game")
+        .navigationBarBackButtonHidden(true)
+        .toolbar {
+            ToolbarItem(placement: .cancellationAction) {
+                Button {
+                    showExitConfirm = true
+                } label: {
+                    Image(systemName: "chevron.left")
+                }
+            }
+        }
         .alert("¿Game terminado?", isPresented: $showGameEndConfirm) {
             Button("Confirmar") {
                 handleGameEndConfirm()
@@ -39,6 +51,14 @@ struct GameView: View {
         } message: {
             let winnerName = pendingWinnerName()
             Text("Ganó \(winnerName). ¿Confirmas?")
+        }
+        .alert("Volver al historial", isPresented: $showExitConfirm) {
+            Button("Volver", role: .destructive) {
+                onExitToHistory()
+            }
+            Button("Cancelar", role: .cancel) {}
+        } message: {
+            Text("Perderás el partido en curso. ¿Continuar?")
         }
     }
 

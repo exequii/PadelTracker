@@ -3,6 +3,8 @@ import SwiftUI
 struct SetSummaryView: View {
     @ObservedObject var matchState: MatchState
     let onStartGame: () -> Void
+    let onExitToHistory: () -> Void
+    @State private var showExitConfirm = false
 
     var body: some View {
         VStack(spacing: 8) {
@@ -32,6 +34,24 @@ struct SetSummaryView: View {
         }
         .padding(8)
         .navigationTitle("Resumen")
+        .navigationBarBackButtonHidden(true)
+        .toolbar {
+            ToolbarItem(placement: .cancellationAction) {
+                Button {
+                    showExitConfirm = true
+                } label: {
+                    Image(systemName: "chevron.left")
+                }
+            }
+        }
+        .alert("Volver al historial", isPresented: $showExitConfirm) {
+            Button("Volver", role: .destructive) {
+                onExitToHistory()
+            }
+            Button("Cancelar", role: .cancel) {}
+        } message: {
+            Text("Perderás el partido en curso. ¿Continuar?")
+        }
     }
 
     private func scoreBox(color: Color, teamName: String, games: Int) -> some View {

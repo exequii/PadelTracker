@@ -4,6 +4,8 @@ struct MatchSummaryView: View {
     @ObservedObject var matchState: MatchState
     let onStartNextSet: () -> Void
     let onFinishMatch: () -> Void
+    let onExitToHistory: () -> Void
+    @State private var showExitConfirm = false
 
     var body: some View {
         VStack(spacing: 8) {
@@ -34,6 +36,24 @@ struct MatchSummaryView: View {
         }
         .padding(8)
         .navigationTitle("Resumen")
+        .navigationBarBackButtonHidden(true)
+        .toolbar {
+            ToolbarItem(placement: .cancellationAction) {
+                Button {
+                    showExitConfirm = true
+                } label: {
+                    Image(systemName: "chevron.left")
+                }
+            }
+        }
+        .alert("Volver al historial", isPresented: $showExitConfirm) {
+            Button("Volver", role: .destructive) {
+                onExitToHistory()
+            }
+            Button("Cancelar", role: .cancel) {}
+        } message: {
+            Text("Perderás el partido en curso. ¿Continuar?")
+        }
     }
 
     private var isMatchOver: Bool {

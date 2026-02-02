@@ -40,7 +40,8 @@ struct ContentView: View {
                         onMatchEnded: {
                             historyStore.add(item: matchState.makeHistoryItem())
                             path = [.matchSummary]
-                        }
+                        },
+                        onExitToHistory: { path = [] }
                     )
                 case .setSummary:
                     SetSummaryView(
@@ -48,7 +49,8 @@ struct ContentView: View {
                         onStartGame: {
                             matchState.startNewGame()
                             path = [.game]
-                        }
+                        },
+                        onExitToHistory: { path = [] }
                     )
                 case .matchSummary:
                     MatchSummaryView(
@@ -59,7 +61,8 @@ struct ContentView: View {
                         },
                         onFinishMatch: {
                             path = []
-                        }
+                        },
+                        onExitToHistory: { path = [] }
                     )
                 }
             }
