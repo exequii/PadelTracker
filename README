@@ -1,1 +1,41 @@
+# PadelTracker (watchOS)
 
+Marcador de padel en tu Apple Watch, pensado para partidos reales: rapido, claro y sin fricciones.
+Configuras equipos, eliges la regla de 40-40 y te enfocas en jugar. La app se encarga del resto:
+score por game y set, tie-break, resumenes y un historial local para recordar cada partido.
+
+---
+
+## Por que PadelTracker
+- Disenado para el ritmo de un partido: botones grandes y flujo simple.
+- Control total del scoring, incluyendo modo resta para corregir puntos.
+- Resumenes automaticos de set y partido con ganador.
+- Historial local para volver a ver resultados.
+
+---
+
+## Funcionalidades
+- 🧩 Configuracion completa de equipos y jugadores para un partido real: nombres de equipos y los 4 jugadores.
+- ⚖️ Regla de 40-40 configurable: ventaja clasica o punto de oro segun el torneo o acuerdo del partido.
+- 🧮 Marcador por game y por set con visual clara: puntos (0/15/30/40/AD) y games por set.
+- 🎯 Tie-break automatico al llegar a 6-6, con conteo de puntos y cierre al ganar por 2.
+- ✅ Confirmacion de cierre de game o set para evitar errores por toques involuntarios.
+- ↩️ Modo resta para deshacer el ultimo punto cuando hubo un error de carga.
+- 🧾 Resumen de set y resumen de partido con ganador y conteo total de sets.
+- 📚 Historial local de partidos guardado en el reloj con opcion de eliminar.
+
+---
+
+## Instalacion
+- Clona este repositorio en tu Mac.
+- Abre `PadelTracker.xcodeproj` en Xcode.
+- Selecciona el destino de Apple Watch (simulador o dispositivo).
+- Compila y ejecuta el proyecto desde Xcode.
+
+---
+
+## Tecnologias
+- Swift
+- SwiftUI
+- watchOS
+- UserDefaults
